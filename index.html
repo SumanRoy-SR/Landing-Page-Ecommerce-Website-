@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Shop | Ecommerce Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link href="<link rel=" preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="Images/qs_bg.png" width="125px" alt="logo"></a>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="shops.html">Shop</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="account.html">Account</a></li>
+                    </ul>
+                </nav>
+                <a href="cart.html"><img src="Images/cart.png" width="30px" height="30px" alt="cart-logo"></a>
+                <img src="Images/menu.png" class="menu-icon" onclick="menutoggle()" alt="menu">
+            </div>
+            <div class="row">
+                <div class="col2">
+                    <h1>Give Your Shoping<br>A New Way!</h1>
+                    <p>If you do build a great experience, customers tell each other about that.<br>Word of mouth is
+                        very powerful.</p>
+                    <a href="shops.html" class="btn">Explore Now &#8594;</a>
+                </div>
+                <div class="col2">
+                    <img src="Images/homebg.png" alt="home-image">
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-------------Featured Catagories-------------->
+
+    <div class="categories">
+        <div class="small-container">
+            <div class="row">
+                <div class="col3">
+                    <img src="https://source.unsplash.com/550x604/?mobile, gadgets" alt="Catagory Image">
+                </div>
+                <div class="col3">
+                    <img src="https://source.unsplash.com/550x604/?laptop, gadgets" alt="Catagory Image">
+                </div>
+                <div class="col3">
+                    <img src="https://source.unsplash.com/550x604/?camera, gadgets" alt="Catagory Image">
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-------------Featured Products-------------->
+
+    <div class="small-container">
+        <h2 class = "title">Featured Shops</h2>
+        <div class="row">
+            <div class="col4">
+                <a href="products.html"><img src="https://source.unsplash.com/1080x1440/?mobile" alt="Product Image"></a>
+                <a href="products.html"><h4>Raj Electronics</h4></a>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>Bangalore, India</p>
+            </div>
+            <div class="col4">
+                <img src="https://source.unsplash.com/1080x1440/?laptop" alt="Product Image">
+                <h4>Laptop Zone</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>Bangalore, India</p>
+            </div>
+            <div class="col4">
+                <img src="https://source.unsplash.com/1080x1440/?gadgets" alt="Product Image">
+                <h4>AR. Products</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>Bangalore, India</p>
+            </div>
+            <div class="col4">
+                <img src="https://source.unsplash.com/1080x1440/?camera" alt="Product Image">
+                <h4>Camera World</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>Bangalore, India</p>
+            </div>
+        </div>
+        <h2 class = "title">Latest Shops</h2>
+        <div class="row">
+            <div class="col4">
+                <img src="https://source.unsplash.com/1080x1440/?tech, mobile" alt="Product Image">
+                <h4>Raj Electronics</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>Bangalore, India</p>
+            </div>
+            <div class="col4">
+                <img src="https://source.unsplash.com/1080x1440/?tech, laptop" alt="Product Image">
+                <h4>Laptop Zone</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>Bangalore, India</p>
+            </div>
+            <div class="col4">
+                <img src="https://source.unsplash.com/1080x1440/?tech, gadgets" alt="Product Image">
+                <h4>AR. Products</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>Bangalore, India</p>
+            </div>
+            <div class="col4">
+                <img src="https://source.unsplash.com/1080x1440/?tech, camera" alt="Product Image">
+                <h4>Camera World</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>Bangalore, India</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col4">
+                <img src="https://source.unsplash.com/1080x1440/?mobile, tech" alt="Product Image">
+                <h4>Raj Electronics</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>Bangalore, India</p>
+            </div>
+            <div class="col4">
+                <img src="https://source.unsplash.com/1080x1440/?laptop, tech" alt="Product Image">
+                <h4>Laptop Zone</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>Bangalore, India</p>
+            </div>
+            <div class="col4">
+                <img src="https://source.unsplash.com/1080x1440/?gadgets, tech" alt="Product Image">
+                <h4>AR. Products</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>Bangalore, India</p>
+            </div>
+            <div class="col4">
+                <img src="https://source.unsplash.com/1080x1440/?camera, tech" alt="Product Image">
+                <h4>Camera World</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>Bangalore, India</p>
+            </div>
+        </div>
+    </div>
+<!----------------- Offer ------------------->
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col2">
+                    <img src="Images/exclusive.png" class="offer-img" alt="offer">
+                </div>
+                <div class="col2">
+                    <p>Exclusively Available on QuickShop</p>
+                    <h1>Smart Band 4</h1>
+                    <small>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere asperiores ab, placeat nisi recusandae animi mollitia reiciendis labore iure, corrupti saepe sint reprehenderit nemo, quasi ducimus dicta. Numquam, placeat aperiam?
+                    </small>
+                    <a href="" class="btn">Buy Now &#8594</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--------------- testimonial ------------->
+    
+    <div class="testimonial">
+        <div class="small-container">
+            <div class="row">
+                <div class="col3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem aspernatur commodi sunt perspiciatis natus culpa dignissimos pariatur ratione eos nobis.</p>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <img src="Images/user-1.png" alt="user">
+                    <h3>Sean Parker</h3>
+                </div>
+                <div class="col3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem aspernatur commodi sunt perspiciatis natus culpa dignissimos pariatur ratione eos nobis.</p>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <img src="Images/user-2.png" alt="user">
+                    <h3>Mike Smith</h3>
+                </div>
+                <div class="col3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem aspernatur commodi sunt perspiciatis natus culpa dignissimos pariatur ratione eos nobis.</p>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <img src="Images/user-3.png" alt="user">
+                    <h3>Mabel Joe</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!---------------------- brands ----------------->
+
+<div class="brands">
+    <div class="small-container">
+        <div class="row">
+            <div class="col5">
+                <img src="Images/logo-godrej.png" alt="logo-godrej">
+            </div>
+            <div class="col5">
+                <img src="Images/logo-oppo.png" alt="logo-godrej">
+            </div>
+            <div class="col5">
+                <img src="Images/logo-coca-cola.png" alt="logo-godrej">
+            </div>
+            <div class="col5">
+                <img src="Images/logo-paypal.png" alt="logo-godrej">
+            </div>
+            <div class="col5">
+                <img src="Images/logo-philips.png" alt="logo-godrej">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!------------- footer ---------------->
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download App for Android and ios mobile phone.</p>
+                <div class="app-logo">
+                    <img src="Images/play-store.png" alt="playstore">
+                    <img src="Images/app-store.png" alt="appstore">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="Images/qs.png" alt="">
+                <p>Our Purpose is to Sustainable Make the Pleasure and Benefits of Electronics Accessible to the Many.</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>YouTube</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2024 - QuickShop</p>
+    </div>
+</div>
+</body>
+</html>
